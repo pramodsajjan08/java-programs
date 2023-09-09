@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class Main {
+
+public static void calculateSumOfDigits(int num) {
+	int sum = 0, rem;
+	 
+    // Statements to be executed in do loop
+    do {
+        // Retrieving steps as discussed in above 3
+        // steps
+        rem = num % 10;
+        sum = sum + rem;
+        num = num / 10;
+
+    }
+    // condition check
+    while (num > 0);
+ 
+     System.out.println(sum);
+    // Returning Sum of digits of a reversed number
+    
+    }
+
+
+
+
+
+public static void main(String[] args)
+
+{
+
+Scanner scan=new Scanner(System.in);
+
+int n=scan.nextInt();
+
+
+calculateSumOfDigits(n);
+
+
+
+}
+}
+
+
+
+
