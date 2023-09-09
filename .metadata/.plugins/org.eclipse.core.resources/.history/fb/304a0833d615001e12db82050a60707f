@@ -1,0 +1,27 @@
+package practice;
+import java.util.Scanner;
+public class Area {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		Scanner scan= new Scanner(System.in);
+		System.out.println("enter a number");
+		int num=scan.nextInt();
+		int num1=scan.nextInt();
+		
+		try {
+		CalcutingArea ar = new CalcutingArea();
+		int res=ar.Calculator( num,num1);
+		
+		System.out.println("area of the square"+res);
+		}
+		catch(Exception e) {
+			System.out.println("exception handling");
+			
+		}
+		
+
+	}
+
+}

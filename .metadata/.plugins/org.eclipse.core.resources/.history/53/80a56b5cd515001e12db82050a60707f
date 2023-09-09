@@ -1,0 +1,24 @@
+package practice;
+import java.util.Scanner;
+public class Area {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		Scanner scan= new Scanner(System.in);
+		System.out.println("enter a number");
+		int a=scan.nextInt();
+		int b=scan.nextInt();
+		//CalculatingArea  = new CalculatingArea();
+		//int res=Calculator(int a, int b)
+		area(a,  b);
+		public static void area(int a,int b) {
+			area ar =a*b;
+			System.out.println("area"+ar);
+		}
+		
+		
+
+	}
+
+}
